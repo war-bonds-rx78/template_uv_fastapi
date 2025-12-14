@@ -1,0 +1,2 @@
+# template_uv_fastapi
+uv管理作成したfastapiのテンプレート
