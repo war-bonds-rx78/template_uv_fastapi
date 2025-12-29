@@ -1,0 +1,14 @@
+# .devcontainer/compose.yml
+services:
+  python:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    tty: true
+    volumes:
+      - type: bind
+        source: ../
+        target: /home/vscode/python
+    restart: unless-stopped
+    # ports:
+    #   - "8000:8000"  # FastAPI等のWebアプリ用

@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Pytest
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
+
+# Editor settings
+.vscode/
+.idea/
+
+# Environment files
+.env
+.env.*
+
+# VS/JetBrains
+*.iml
+
+# Logs
+*.log
+
+# OS
+.DS_Store
